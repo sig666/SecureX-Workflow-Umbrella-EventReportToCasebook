@@ -57,5 +57,4 @@ Target Group: `Default TargetGroup`
 Default
 
 # Reccomendation
-To import 023 - Umbrella - Excessive Requests to Incidents schedule and check the details in this Workflow
-Many compornents have been adapted.
+To import 023 - Umbrella - Excessive Requests to Incidents schedule and check the details in this Workflow. Many compornents have been adapted.

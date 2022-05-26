@@ -1,5 +1,6 @@
 # SecureX-Workflow-Umbrella-EventReportToCasebook
 This workflow utilizes the DNS Activity endpoint of the Umbrella Reporting API to extract events that occurred within a specified time period (the default setting for this template is 1 hour), report the time of occurrence, verdict, Internal IP address, External IP address to be used, and domain for the destination for the event, and record the results in the Ribbon Casebook.
+
 ![workflow](img/workflow.png "workflow")
 
 # Change Log
@@ -38,6 +39,7 @@ The targets and account keys listed at the bottom of the page
 3. Select **Browse** from Import From
 4. Open **SecureX-Workflow-Umbrella-EventReportToCasebook.json** and Copy text
 5. Paste to **Paste JSON or upload the workflow to import** and click **Import**
+
 ![install](img/install.png "install")
 
 # Configuration

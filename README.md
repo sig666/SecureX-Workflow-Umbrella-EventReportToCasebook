@@ -28,3 +28,12 @@ The targets and account keys listed at the bottom of the page
    - Convert XML to HTML Incident Message
 4. Generate an access token for SecureX and create an incident to Ribbon Incident Manager
 
+# Installation
+1. Browse to your SecureX orchestration instance. This wille be a different URL depending on the region your account is in:
+  US: https://securex-ao.us.security.cisco.com/orch-ui/workflows/
+  EU: https://securex-ao.eu.security.cisco.com/orch-ui/workflows/
+  APJC: https://securex-ao.apjc.security.cisco.com/orch-ui/workflows/
+2. Click on **Import** to import the workflow.
+3. Select **Browse** from Import From
+4. Open **SecureX-Workflow-Umbrella-EventReportToCasebook.json** and Copy text
+5. Paste to **Paste JSON or upload the workflow to import** and click **Import**

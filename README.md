@@ -38,6 +38,7 @@ The targets and account keys listed at the bottom of the page
 3. Select **Browse** from Import From
 4. Open **SecureX-Workflow-Umbrella-EventReportToCasebook.json** and Copy text
 5. Paste to **Paste JSON or upload the workflow to import** and click **Import**
+![install](img/install.png "install")
 
 # Configuration
 - Set the `Umbrella Organization ID` in local variable to your Umbrella organization’s ID (found in your Umbrella dashboard’s URL)

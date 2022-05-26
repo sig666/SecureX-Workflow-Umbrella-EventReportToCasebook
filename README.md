@@ -9,7 +9,9 @@ The following system atomics are used by this workflow:
 - Umbrella - Reporting V2 - Get Token
 - Threat Response - Generate Access Token
 - Threat Response - Create Incident
+
 The following atomic actions must be imported before you can import this workflow:
 - None
+
 The targets and account keys listed at the bottom of the page
 - Cisco Umbrella

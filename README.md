@@ -22,9 +22,9 @@ The targets and account keys listed at the bottom of the page
 3. Check if the request was successful:
  - If it wasn’t, output an error and end the workflow
  - If it was:
-  - Convert the statistics to a table
-  - Loop through the table checking if any of the categories are in scope. If it is, add it to the Incident text
-  - Convert JSON Text to XML
-  - Convert XML to HTML Incident Message
+   - Convert the statistics to a table
+   - Loop through the table checking if any of the categories are in scope. If it is, add it to the Incident text
+   - Convert JSON Text to XML
+   - Convert XML to HTML Incident Message
 4. Generate an access token for SecureX and create an incident to Ribbon Incident Manager
 

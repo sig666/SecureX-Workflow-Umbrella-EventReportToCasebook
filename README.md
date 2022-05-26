@@ -39,4 +39,21 @@ The targets and account keys listed at the bottom of the page
 5. Paste to **Paste JSON or upload the workflow to import** and click **Import**
 
 # Configuration
-- Set the `Umbrella Organization ID` local variable to your Umbrella organization’s ID (found in your Umbrella dashboard’s URL)
+- Set the `Umbrella Organization ID` in local variable to your Umbrella organization’s ID (found in your Umbrella dashboard’s URL)
+- Set the `Category ID` in local variable to fetch Event Details you want to alert on (ex: 55,188,72,148,151,66)
+- Set the `Request Threshold` in local variable to set number of Events to fetch  per hour you want to alert on. This is 10 by default
+- By default, the workflow is configured to run once an hour using the `0023 - Umbrella - Excessive Requests to Incidents schedule`. When you import the workflow, the schedule trigger will be disabled. To enable the schedule:
+  - Open the workflow in the workflow editor
+  - Scroll down to the **Triggers** section of the workflow’s properties and click **Umbrella Report Polling**
+  - Uncheck the **Disable Trigger** box and click **Save**
+- If you change the schedule to every 2 hours, you would need to change `Relative Url` parameter  **from=-2hours** instead of from=-1hours in `WEB SERVICE - Request Activities`.
+
+# Targets
+Target Group: `Default TargetGroup`
+
+# Account Keys
+Default
+
+# Reccomendation
+To import 023 - Umbrella - Excessive Requests to Incidents schedule and check the details in this Workflow
+Many compornents have been adapted.
